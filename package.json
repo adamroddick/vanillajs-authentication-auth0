@@ -1,0 +1,21 @@
+{
+  "name": "vanillajs-authentication-auth0",
+  "version": "0.0.0",
+  "description": "VanillaJS with Authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Adam Roddick",
+  "license": "MIT",
+  "dependencies": {
+    "auth0-js": "^9.0.0",
+    "bootstrap": "^3.3.7",
+    "express": "4.16.4",
+    "nodemon": "1.18.9",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "auth0-quickstarts-tester": "0.1.0"
+  }
+}
